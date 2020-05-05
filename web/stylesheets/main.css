@@ -1,0 +1,54 @@
+body {
+	background: white;
+  padding: 1rem;
+  font-family: sans-serif;
+  margin: auto;
+  color: #222;
+}
+
+h1, p {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+#timer {
+  font-family: 'Fira Code', monospace;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 4.5vh auto 0 auto;
+  max-width: 1200px;
+}
+
+#timer div {
+  font-size: 4.5vw;
+  padding: 1vw;
+}
+
+#timer small {
+  font-size: 0.75rem;
+}
+
+#logo {
+  width: 79px;
+  margin: 3.333vh auto;
+  display: block;
+  z-index: -2;
+  position: relative;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
