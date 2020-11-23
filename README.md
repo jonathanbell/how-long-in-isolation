@@ -2,6 +2,8 @@
 
 How long has Benevity been working from home in isolation?
 
+Counter is also running here: <https://how-long-in-isolation.herokuapp.com/>
+
 ## Deploying
 
 Install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
